@@ -1,0 +1,24 @@
+POST http://localhost:3000/entregadores
+Content-Type: application/json
+
+{
+  "idUser": "2", 
+  "nome": "leticia", 
+  "cpfCnpj": "26808630895", 
+  "celular": "99887875469", 
+  "email": "leticia@leticia.com", 
+  "idade": "23", 
+  "endereco": "Rua J", 
+  "numero": "33", 
+  "complemento": "Casa", 
+  "bairro": "Compensa", 
+  "veiculo": "Bicicleta", 
+  "placa": ""
+}
+
+
+###
+GET http://localhost:3000/entregadores
+
+###
+GET http://localhost:3000/entregadores/user/1
